@@ -1,0 +1,332 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" type="image/png" href="assets/natan/general/favicon.ico">
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+  <script src="https://unpkg.com/scrollreveal"></script>
+  <title>Cerrajería en Guadalajara y Zapopan</title>
+</head>
+
+<body>
+  <header class="header">
+    <nav>
+      <div class="logo__title">
+        <img class="logo" src="assets/natan/general/logo-removebg-preview.png" alt="">
+        <div class="nav__logo"><a href="#">Cerrajería Natán Chávez</a></div>
+      </div>
+
+      <ul class="nav__links">
+        <li class="link"><a href="#home">Inicio</a></li>
+        <li class="link"><a href="#servicios">Servicios</a></li>
+        <li class="link"><a href="#galeria">Galería</a></li>
+        <li class="link"><a href="#mapa">Ubicaciones</a></li>
+      </ul>
+    </nav>
+    <div class="section__container header__container" id="home">
+      
+      <div class="titulo">
+        <h1>Cerrajería Automotriz</h1>
+        <h2>¿Perdiste las llaves de tu coche? Llámame y cotiza sin compromiso</h2>
+      </div>
+      <div class="header__form">
+
+        <button class="btn" id="call">33-1746-5526</button>
+        <button class="btn" id="whatss">Whatsapp <i class="ri-whatsapp-line"></i></button>
+
+      </div>
+    </div>
+  </header>
+
+  <!-- Servicios -->
+
+  <section class="section__container seller__container" id="servicios">
+    <div class="section__header">
+      <h2 class="section__title">Servicios</h2>
+    </div>
+
+    <div class="seller__grid">
+
+      <div class="seller__card">
+        <div class="seller__image1"> 
+        </div>
+        <div class="seller__details">
+          <h4>Duplicado de llaves y controles</h4>
+          <p>Tenemos las herramientas necesarias para ayudarte con las llaves de tu auto.</p>
+        </div>
+      </div>
+
+      <div class="seller__card">
+        <div class="seller__image2"> 
+        </div>
+        <div class="seller__details">
+          <h4>Llaves de alta y baja gama</h4>
+          <p>No importa la marca o el modelo, podemos ayudarte, Wolkswagen, Mazda, Mercedes, BMW, Toyota, Ford, JAC, MG.</p>
+        </div>
+      </div>
+
+      <div class="seller__card">
+        <div class="seller__image3">
+        </div>
+        <div class="seller__details">
+          <h4>Programación electrónica de llaves automotrices</h4>
+          <p>¿Perdiste la llave de tu carro? Estamos capacitados para ayudarte y solucionar tu problema. </p>
+        </div>
+      </div>
+
+    </div>
+
+  </section>
+
+  <!-- Galeria -->
+
+  <section class="section__container destination__container" id="galeria">
+    <div class="section__header">
+      <h2 class="section__title">Galería</h2>
+
+    </div>
+    <div class="destination__grid">
+      <div class="destination__card">
+        <img src="assets/natan/00b494f2-2a50-4c1f-9243-c512ede14a2a.jpeg" alt="llave volkswagen" />
+        <div class="destination__details">
+          <h4>VolksWagen</h4>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/natan/134c0676-d29b-4d33-abfa-b8391426c3d4.jpeg" alt="Programación electrónica de llaves" />
+        <div class="destination__details">
+          <h4>Programación electrónica de llaves</h4>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/natan/1c15674b-2f81-4e60-9c83-f9b2965930a3.jpeg" alt="programar llave Mazda" />
+        <div class="destination__details">
+          <h4>Mazda</h4>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/natan/4cc17865-680c-43ff-a938-f0c5817226e8.jpeg" alt="Programación de llaves automotrices" />
+        <div class="destination__details">
+          <h4>Volkswagen</h4>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/natan/55613404-0d65-4910-8224-1c46d781e3ca.jpeg" alt="Programar llaves chevrolet" />
+        <div class="destination__details">
+          <h4>Chevrolet</h4>
+        </div>
+      </div>
+
+      <div class="destination__card">
+        <img src="assets/natan/62313645-e4af-4534-b2d5-622780b72d3a.jpeg" alt="Duplicado de llaves automotrices" />
+        <div class="destination__details">
+          <h4>Duplicado de llaves</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- Map -->
+  <section class="tour" id="mapa">
+    <div class="section__container tour__container">
+      <h4>Dónde encontrarnos</h4>
+      <p>Tenemos presencia en Guadalajara y Zapopan y damos servicio de carrajería a toda la zona metropolitana de Guadalajara.</p>
+      <div class="places">
+
+        <div class="trending__grid">
+          <div class="trending__card">
+            <img src="assets/natan/be969648-23b3-4b90-8476-828ac5864e0c.jpeg" alt="cerrajeria el mundo de las llaves" />
+            <h1>Cerrajería Natán Chávez</h1>
+            <div class="trending__details">
+              <div class="price">
+                <h3>Dirección:</h3>
+
+                <p class="direccion">Prol. Río Blanco 1319 B, Misión San Isidro, 45131 Zapopan, Jal.</p>
+                <a href="https://www.google.com/maps/place/20.762900477486927,-103.3918856980058" target="_blank">Ir a
+                  la Ubicación en Google Maps</a>
+                <br>
+                <br>
+                <p>Lunes -> 8 AM–6 PM</p>
+                <p>Martes -> 8 AM–6 PM</p>
+                <p>Miéroles -> 8 AM–6 PM</p>
+                <p>Jueves -> 8 AM–6 PM</p>
+                <p>Viernes -> 8 AM–6 PM</p>
+                <p>Sábado -> 8 AM–2 PM</p>
+                <p>Domingo -> Cerrado</p>
+
+              </div>
+
+            </div>
+
+          </div>
+          <div class="trending__card">
+            <img src="assets/natan/suc_oblatos.png" alt="cerrajería 24 horas" />
+            <h1>Sucursal Oblatos</h1>
+            
+            <div class="trending__details">
+              <div class="trending__details">
+                <div class="price">
+                  <h3>Dirección:</h3>
+  
+                  <p class="direccion">Juan Pablo II s/n, entre Joaquín Amaro y Hacienda del Carmen, Oblatos, 44700 Guadalajara, Jal.</p>
+                  <a href="https://www.google.com/maps/place/20.69992623576344,-103.29101072283156" target="_blank">Ir a
+                    la Ubicación en Google Maps</a>
+                  <br>
+                  <br>
+                  <p>Lunes -> Abierto las 24 horas</p>
+                  <p>Martes -> Abierto las 24 horas</p>
+                  <p>Miéroles -> Abierto las 24 horas</p>
+                  <p>Jueves -> Abierto las 24 horas</p>
+                  <p>Viernes -> Abierto las 24 horas</p>
+                  <p>Sábado -> Abierto las 24 horas</p>
+                  <p>Domingo -> Cerrado</p>
+  
+                </div>
+            </div>
+            
+          </div>
+
+        </div>
+      </div>
+      <div class="video__container">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+
+
+
+  <!-- CLIENTES-->
+
+  <section class="section__container client__container" id="client">
+    <div class="section__header">
+      <h2 class="section__title">Lo Que Opinan Nuestros Clientes</h2>
+
+    </div>
+    <div class="client__grid">
+
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+
+          </div>
+        </div>
+        <p>Buenos precios, excelente atención.</p>
+        <div class="client__card__footer">
+          <img src="assets/natan/general/user.png" alt="client">
+          <div class="client__details">
+            <h4>Francisco R.</h4>
+          </div>
+        </div>
+      </div>
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+        </div>
+        <p>Buen servicio y atención. Muy rápidos y eficientes en lo que hacen.</p>
+        <div class="client__card__footer">
+          <img src="assets/natan/general/user.png" alt="client">
+          <div class="client__details">
+            <h4>David L.</h4>
+          </div>
+        </div>
+      </div>
+
+      <div class="client__card">
+        <div class="client__card__header">
+          <span><i class="ri-double-quotes-r"></i></span>
+          <div class="ratings">
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+            <span><i class="ri-star-fill"></i></span>
+          </div>
+        </div>
+        <p>Buen servicio, gran variedad de llaves.</p>
+        <div class="client__card__footer">
+          <img src="assets/natan/general/user.png" alt="client">
+          <div class="client__details">
+            <h4>Arturo P.</h4>
+          </div>
+        </div>
+      </div>
+
+  </section>
+
+  <!-- CTA -->
+
+  <section class="subscribe" id="subscribe">
+    <div class="section__container subscribe__container">
+      <h4>Servicio Automotriz De Alta Y Baja Gama</h4>
+      <div class="header__form">
+
+        <button class="btn" id="call">¡Llámanos!</button>
+        <button class="btn" id="whatss">Whatsapp <i class="ri-whatsapp-line"></i></button>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER CONTAINER -->
+
+  <footer>
+    <div class="section__container footer__container">
+      <div class="footer__col">
+        <h5>Cerrajería Automotriz</h5>
+        <p>Servicio de Cerrajería automotríz en el área metropolitana de Guadalajara. Realizamos servicios en Zapopan,
+          Tonalá, Tlaquepaque y Guadalajara, además de atender areas aledañas.</p>
+      </div>
+      <div class="footer__col enlaces">
+        <h4>Enlaces</h4>
+        <a href="#home" Inicio></a>
+        <a href="#servicios">Servicios</a>
+        <a href="#galeria">Galería</a>
+        <a href="#mapa">Ubicaciones</a>
+      </div>
+      
+      <div class="footer__col">
+        <h4>Síguenos</h4>
+        <div class="footer__socials">
+          
+          <span>
+            <a href="https://www.facebook.com/p/Cerrajer%C3%ADa-Natan-Ch%C3%A1vez-100048108025006/?locale=es_LA&paipv=0&eav=AfZm-Eph2cjVhwm01YIqtPoW26DfpHD9Pi53dtDnKWh2zn16Uj9rdsCJJl44NxQTZIQ&_rdr"><i class="ri-facebook-fill"></i></a>
+          </span>
+        </div>
+      </div>
+    </div>
+    <div class="footer__bar">
+      Copyright 2023 Cerrajería Natán Chávez. Todos los Derechos Reservados.
+    </div>
+
+  </footer>
+
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+  <script src="mapa.js"></script>
+</body>
+
+</html>
