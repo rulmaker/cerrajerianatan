@@ -201,6 +201,15 @@ nav {
     background-color: #25D366;
 }
 
+#call2 {
+    display: inline-flex;
+}
+
+#whatss2 {
+    display: inline-block;
+    background-color: #25D366;
+}
+
 
 .trending__grid {
     margin-top: 4rem;
