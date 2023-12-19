@@ -55,3 +55,13 @@ document.getElementById('call').addEventListener('click', function() {
 document.getElementById('whatss').addEventListener('click', function() {
     window.location.href = 'https://wa.me/3317465526'
 })
+
+// Llamar
+document.getElementById('call2').addEventListener('click', function() {
+    window.location.href = 'tel:+523317465526'
+});
+
+//whatsapp
+document.getElementById('whatss2').addEventListener('click', function() {
+    window.location.href = 'https://wa.me/3317465526'
+})
