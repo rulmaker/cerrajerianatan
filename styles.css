@@ -107,7 +107,7 @@ body {
 }
 
 .header {
-    background-image: url(assets/natan/local.jpeg);
+    background-image: url(assets/natan/local.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -357,21 +357,21 @@ nav {
 }
 
 .seller__image1 {
-    background-image: url(assets/natan/b5302bf9-11be-406d-912d-4f90162035e2.jpeg);
+    background-image: url(assets/natan/b5302bf9-11be-406d-912d-4f90162035e2.jpg);
     height: 13rem;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; 
 }
 .seller__image2 {
-    background-image: url(assets/natan/f78d3364-1450-4ce4-adf8-2adbd068f3bf.jpeg);
+    background-image: url(assets/natan/f78d3364-1450-4ce4-adf8-2adbd068f3bf.jpg);
     height: 13rem;
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat; 
 }
 .seller__image3 {
-    background-image: url(assets/natan/134c0676-d29b-4d33-abfa-b8391426c3d4.jpeg);
+    background-image: url(assets/natan/134c0676-d29b-4d33-abfa-b8391426c3d4.jpg);
     height: 13rem;
     background-position: center center;
     background-size: cover;
@@ -415,7 +415,6 @@ nav {
 .tour {
     margin-bottom: 2rem;
     background-color: rgb(0, 0, 0, 0.8);
-    /* background-image: url(assets/natan/ea8e8fe8-a84b-48c9-9c53-33252fc6b23f.jpeg); */
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
@@ -522,7 +521,7 @@ nav {
 /* CTA */
 
 .subscribe {
-    background-image: url(assets/natan/ea8e8fe8-a84b-48c9-9c53-33252fc6b23f.jpeg);
+    background-image: url(assets/natan/ea8e8fe8-a84b-48c9-9c53-33252fc6b23f.jpg);
     background-position: center center;
     background-size: cover;
     background-repeat: no-repeat;
